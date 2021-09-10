@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3b3b3b;
+}
+
+.container {
+    width: 90%;
+    padding: 50px 10px;
+    /* background-color: rgb(219, 191, 191); */
+    display: flex;
+    flex-direction: column;
+}
+
+.container>h1 {
+    color: #fff;
+}
+
+.superheroes {
+    padding: 30px;
+    /* background-color: red; */
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.superhero {
+    /* width: 22%; */
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px 0;
+    /* background-color: aqua; */
+}
+
+.superhero_img {
+    height: 300px;
+    width: 100%;
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+
+.superhero_details {
+    padding: 10px;
+    background-color: #fff;
+    /* height: 200px; */
+}
+
+.superhero_name {
+    font-size: 25px;
+}
+
+.img{
+    width: 100%;
+}
+
+.powerstats p {
+    padding: 3px 0;
+}
+
+.body_stats {
+    margin: 10px 0;
+}
+
+.power_bg {
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+    margin: 5px 0 0 0;
+}
+
+.power_fg {
+    height: 10px;
+    width: 50%;
+    background-color: rgb(81, 201, 241);
+}
